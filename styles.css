@@ -1,21 +1,34 @@
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Kreon', Serif ;'
 }
 
 header {
-  background: turquoise;
   padding: 1em;
+  text-align: right;
+
 }
 
 .main-content {
   padding: 1em;
+  z-index: 1;
 }
 
 
 
 
-
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 20em solid transparent;
+	border-left: 40em solid darkturquoise;
+	border-bottom: 20em solid transparent;
+  position: absolute;
+  left: 0;
+  opacity: .5;
+  z-index: -1;
+}
 
 
 
