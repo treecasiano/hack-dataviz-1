@@ -1,37 +1,41 @@
 body {
+  box-sizing: border-box;
+  font-family: 'Kreon', "Lucida Bright", serif;
   height: 100%;
   width: 100%;
-  font-family: 'Kreon', Serif ;'
-}
-
-header {
-  padding: 1em;
-  text-align: right;
-
 }
 
 .main-content {
-  padding: 1em;
-  z-index: 1;
+  margin: 0 auto;
+  max-width: 400px;
+  padding-top: 4em;
+  text-align: center;
 }
 
-
-
-
-.triangle {
-	width: 0;
-	height: 0;
-	border-top: 20em solid transparent;
-	border-left: 40em solid darkturquoise;
+.triangle-left {
 	border-bottom: 20em solid transparent;
-  position: absolute;
-  left: 0;
+	border-left: 40em solid palegoldenrod;
+	border-top: 20em solid transparent;
+	height: 0;
+	left: 0;
   opacity: .5;
+  position: absolute;
+  width: 0;
   z-index: -1;
 }
 
 
-
+.triangle-right {
+	border-bottom: 20em solid transparent;
+	border-right: 40em solid paleturquoise;
+	border-top: 20em solid transparent;
+	height: 0;
+	opacity: .5;
+  position: absolute;
+  right: 0;
+  width: 0;
+  z-index: -1;
+}
 
 
 
