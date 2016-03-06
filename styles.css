@@ -1,13 +1,18 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   box-sizing: border-box;
   font-family: 'Kreon', "Lucida Bright", serif;
   height: 100%;
+  padding: 1em;
   width: 100%;
 }
 
 .main-content {
   margin: 0 auto;
-  max-width: 400px;
   padding-top: 4em;
   text-align: center;
 }
@@ -37,9 +42,11 @@ body {
   z-index: -1;
 }
 
-
-
-
+@media only screen and (min-width: 500px) {
+    .main-content {
+        max-width: 50%;
+    }
+}
 
 
 
