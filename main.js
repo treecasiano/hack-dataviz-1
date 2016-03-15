@@ -37,7 +37,7 @@ var height = 250; // set vars for height & width
 var width = 600;
 
 var yScale = d3.scale.linear()
-  .domain([0, 6000]) // domain manually set a little higher than max value
+  .domain([0, d3.max(dataSet)*1.1]) // domain manually set a little higher than max value
   .range([0, height]); // set yScale linear
 var xScale = d3.scale.ordinal() // orders
   .domain(dataSet)
