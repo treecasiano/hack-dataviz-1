@@ -52,7 +52,7 @@ svg.selectAll('rect')
   .enter()
   .append('rect')
   .attr('class', 'bar')
-  .attr('x', function(data, index) {
+  .attr('x', function(data) {
     return xScale(data); // using xScale on data
   })
   .attr('y', function(data) {
