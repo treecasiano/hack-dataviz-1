@@ -7,8 +7,7 @@ body {
   box-sizing: border-box;
   font-family: 'Kreon', "Lucida Bright", serif;
   height: 100%;
-  padding-left: 100px;
-  padding-top: 50px;
+  padding: 100px 50px;
   width: 100%;
 }
 
@@ -26,5 +25,19 @@ body {
   background-color: lightgoldenrodyellow;
   height: 250px;
   width: 600px;
+}
+
+#bubbleChart {
+  background-color: lavenderblush;
+  height: 250px;
+  width: 600px;
+}
+
+.bubble {
+  display: inline-block;
+  fill: darkMagenta;
+  fill-opacity: 0.5;
+  stroke: black;
+  stroke-weight: 1px;
 }
 
