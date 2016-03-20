@@ -43,4 +43,4 @@
     .attr('r', function (data) {
     return data.radius;
   });
-});
+})();
